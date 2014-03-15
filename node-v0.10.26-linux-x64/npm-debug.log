@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/apache2/htdocs/nodejs/node-v0.10.26-linux-x64/bin/node',
+1 verbose cli   '/usr/local/apache2/htdocs/nodejs/node-v0.10.26-linux-x64/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-http-proxy' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json filesystem@1.0.1 No description
+5 warn package.json tls@0.0.1 tls is also the name of a node core module.
+6 verbose cache add [ 'node-http-proxy', null ]
+7 verbose cache add name=undefined spec="node-http-proxy" args=["node-http-proxy",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'node-http-proxy',
+8 verbose parsed url   path: 'node-http-proxy',
+8 verbose parsed url   href: 'node-http-proxy' }
+9 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+10 verbose lock node-http-proxy /home/scarter/.npm/a959cfe6-node-http-proxy.lock
+11 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+12 silly lockFile a959cfe6-node-http-proxy node-http-proxy
+13 verbose addNamed [ 'node-http-proxy', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+16 verbose lock node-http-proxy@ /home/scarter/.npm/59ea8b07-node-http-proxy.lock
+17 silly addNameRange { name: 'node-http-proxy', range: '*', hasData: false }
+18 verbose url raw node-http-proxy
+19 verbose url resolving [ 'https://registry.npmjs.org/', './node-http-proxy' ]
+20 verbose url resolved https://registry.npmjs.org/node-http-proxy
+21 info trying registry request attempt 1 at 16:02:12
+22 http GET https://registry.npmjs.org/node-http-proxy
+23 http 404 https://registry.npmjs.org/node-http-proxy
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Sat, 15 Mar 2014 20:02:16 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-v44-ASH',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1394913736.370916605,VS0,VE101',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+26 silly lockFile 59ea8b07-node-http-proxy node-http-proxy@
+27 error 404 'node-http-proxy' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Maybe try 'npm search http proxy'
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Linux 2.6.32-279.el6.x86_64
+29 error command "/usr/local/apache2/htdocs/nodejs/node-v0.10.26-linux-x64/bin/node" "/usr/local/apache2/htdocs/nodejs/node-v0.10.26-linux-x64/bin/npm" "install" "node-http-proxy"
+30 error cwd /usr/local/apache2/htdocs/nodejs/node-v0.10.26-linux-x64
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error code E404
+34 verbose exit [ 1, true ]
